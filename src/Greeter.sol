@@ -24,5 +24,6 @@ contract Greeter {
 
   function setGreeting(string memory newGreeting) external {
     greeting = newGreeting;
+    Greeting();
   }
 }
